@@ -1,0 +1,27 @@
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 60px;
+
+    &__fs14 {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    &__fs16 {
+        font-size: 16px;
+    }
+
+    &__fs20 {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    &__fs36 {
+        font-size: 36px;
+    }
+
+    &__fs48 {
+        font-size: 48px;
+    }
+}
