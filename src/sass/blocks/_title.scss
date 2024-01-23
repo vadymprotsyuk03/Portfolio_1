@@ -3,6 +3,12 @@
     font-weight: 700;
     line-height: 60px;
 
+    &__fs12 {
+        font-size: 12px;
+        line-height: normal;
+
+    }
+
     &__fs14 {
         font-size: 14px;
         line-height: normal;
@@ -23,5 +29,21 @@
 
     &__fs48 {
         font-size: 48px;
+    }
+
+    &__section-title {
+        position: relative;
+        text-align: center;
+        @include before_circle;
+
+        &:before {
+            top: 13px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
+    &__section-subtitle {
+        text-align: center;
     }
 }
